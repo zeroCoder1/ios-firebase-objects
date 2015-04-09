@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.0'
   s.source_files = 'FirebaseObjects/*.{h,m}'
   s.requires_arc = true
-  s.dependency 'Firebase', '~> 1.0.0'
+  s.dependency 'Firebase', '>= 2.2.0'
 end
